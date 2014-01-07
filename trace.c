@@ -69,19 +69,20 @@ trace (const double dtdx,
       project = zero;
     }
 
-    double cc, csq,r, u, v, p;
-    double dr, du, dv, dp;
-    double alpham, alphap, alpha0r, alpha0v;
-    double spminus, spplus, spzero;
-    double apright, amright, azrright, azv1right;
-    double apleft, amleft, azrleft, azv1left;
-    int ijmin=0, ijmax=n;
-
-
+    //EB :
+    //printf("slices = %d, ijmin = %d, ijmax = %d\n", slices, ijmin, ijmax);
+    #pragma omp parallel for
     for (int s = 0; s < slices; s++)
     {
+      double cc, csq,r, u, v, p;
+      double dr, du, dv, dp;
+      double alpham, alphap, alpha0r, alpha0v;
+      double spminus, spplus, spzero;
+      double apright, amright, azrright, azv1right;
+      double apleft, amleft, azrleft, azv1left;
+      int ijmin=0, ijmax=n;
       for (int i = ijmin + 1; i < ijmax - 1; i++)
-	    {
+      {
         cc = c[IDXE (s, i)];
         csq = Square (cc);
         r = q[IDX (ID, s, i)];
@@ -147,7 +148,7 @@ trace (const double dtdx,
         qxm[IDX (IV, s, i)] = v + (azv1left);
         qxm[IDX (IP, s, i)] = p + (apleft + amleft) * csq;
 
-        CFLOPS (78);
+        //EB : CFLOPS (78);
       }
     }
 
