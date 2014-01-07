@@ -1,0 +1,254 @@
++-------------------+
+|nx=400             |
+|ny=500             |
+|nxystep=500        |
+|tend=40.000        |
+|nstepmax=81        |
+|noutput=1000000    |
+|dtoutput=0.000     |
++-------------------+
+202 252
+nthreads : 1
+nthreads : 1
+--> Step=   1,  1.33631e-03, 1.33631e-03  {179.992 Mflops 39290168} (0.218s)
+nthreads : 1
+nthreads : 1
+--> Step=   2,  2.67261e-03, 1.33631e-03  {191.830 Mflops 39293940} (0.205s)
+nthreads : 1
+nthreads : 1
+--> Step=   3,  5.70914e-03, 3.03653e-03  {183.364 Mflops 39299024} (0.214s)
+nthreads : 1
+nthreads : 1
+--> Step=   4,  8.74568e-03, 3.03653e-03  {189.477 Mflops 39302550} (0.207s)
+nthreads : 1
+nthreads : 1
+--> Step=   5,  1.24942e-02, 3.74854e-03  {183.413 Mflops 39305174} (0.214s)
+nthreads : 1
+nthreads : 1
+--> Step=   6,  1.62428e-02, 3.74854e-03  {175.866 Mflops 39307716} (0.224s)
+nthreads : 1
+nthreads : 1
+--> Step=   7,  2.06309e-02, 4.38811e-03  {165.093 Mflops 39310176} (0.238s)
+nthreads : 1
+nthreads : 1
+--> Step=   8,  2.50190e-02, 4.38811e-03  {172.395 Mflops 39312718} (0.228s)
+nthreads : 1
+nthreads : 1
+--> Step=   9,  2.95700e-02, 4.55100e-03  {179.481 Mflops 39315096} (0.219s)
+nthreads : 1
+nthreads : 1
+--> Step=  10,  3.41210e-02, 4.55100e-03  {189.782 Mflops 39317392} (0.207s)
+nthreads : 1
+nthreads : 1
+--> Step=  11,  3.89064e-02, 4.78539e-03  {183.245 Mflops 39319524} (0.215s)
+nthreads : 1
+nthreads : 1
+--> Step=  12,  4.36918e-02, 4.78539e-03  {188.986 Mflops 39321738} (0.208s)
+nthreads : 1
+nthreads : 1
+--> Step=  13,  4.86146e-02, 4.92287e-03  {183.461 Mflops 39323132} (0.214s)
+nthreads : 1
+nthreads : 1
+--> Step=  14,  5.35375e-02, 4.92287e-03  {183.747 Mflops 39325264} (0.214s)
+nthreads : 1
+nthreads : 1
+--> Step=  15,  5.86005e-02, 5.06301e-03  {167.745 Mflops 39327396} (0.234s)
+nthreads : 1
+nthreads : 1
+--> Step=  16,  6.36635e-02, 5.06301e-03  {170.455 Mflops 39328134} (0.231s)
+nthreads : 1
+nthreads : 1
+--> Step=  17,  6.88471e-02, 5.18356e-03  {178.909 Mflops 39330184} (0.220s)
+nthreads : 1
+nthreads : 1
+--> Step=  18,  7.40307e-02, 5.18356e-03  {188.761 Mflops 39332234} (0.208s)
+nthreads : 1
+nthreads : 1
+--> Step=  19,  7.93209e-02, 5.29022e-03  {182.759 Mflops 39333464} (0.215s)
+nthreads : 1
+nthreads : 1
+--> Step=  20,  8.46111e-02, 5.29022e-03  {180.478 Mflops 39334366} (0.218s)
+nthreads : 1
+nthreads : 1
+--> Step=  21,  8.99950e-02, 5.38393e-03  {182.199 Mflops 39336334} (0.216s)
+nthreads : 1
+nthreads : 1
+--> Step=  22,  9.53790e-02, 5.38393e-03  {188.847 Mflops 39338302} (0.208s)
+nthreads : 1
+nthreads : 1
+--> Step=  23,  1.00849e-01, 5.47035e-03  {183.953 Mflops 39337974} (0.214s)
+nthreads : 1
+nthreads : 1
+--> Step=  24,  1.06320e-01, 5.47035e-03  {191.554 Mflops 39339204} (0.205s)
+nthreads : 1
+nthreads : 1
+--> Step=  25,  1.11873e-01, 5.55353e-03  {185.095 Mflops 39340844} (0.213s)
+nthreads : 1
+nthreads : 1
+--> Step=  26,  1.17427e-01, 5.55353e-03  {233.510 Mflops 39343796} (0.168s)
+nthreads : 1
+nthreads : 1
+--> Step=  27,  1.23058e-01, 5.63093e-03  {229.691 Mflops 39343058} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  28,  1.28689e-01, 5.63093e-03  {237.223 Mflops 39343714} (0.166s)
+nthreads : 1
+nthreads : 1
+--> Step=  29,  1.34390e-01, 5.70145e-03  {229.729 Mflops 39346092} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  30,  1.40091e-01, 5.70145e-03  {237.327 Mflops 39348880} (0.166s)
+nthreads : 1
+nthreads : 1
+--> Step=  31,  1.45858e-01, 5.76676e-03  {229.719 Mflops 39349044} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  32,  1.51625e-01, 5.76676e-03  {237.379 Mflops 39348634} (0.166s)
+nthreads : 1
+nthreads : 1
+--> Step=  33,  1.57454e-01, 5.82885e-03  {229.597 Mflops 39350356} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  34,  1.63283e-01, 5.82885e-03  {237.319 Mflops 39352242} (0.166s)
+nthreads : 1
+nthreads : 1
+--> Step=  35,  1.69171e-01, 5.88789e-03  {229.769 Mflops 39355522} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  36,  1.75058e-01, 5.88789e-03  {237.282 Mflops 39355358} (0.166s)
+nthreads : 1
+nthreads : 1
+--> Step=  37,  1.81002e-01, 5.94383e-03  {229.797 Mflops 39354046} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  38,  1.86946e-01, 5.94383e-03  {237.287 Mflops 39356260} (0.166s)
+nthreads : 1
+nthreads : 1
+--> Step=  39,  1.92943e-01, 5.99693e-03  {229.501 Mflops 39358310} (0.171s)
+nthreads : 1
+nthreads : 1
+--> Step=  40,  1.98940e-01, 5.99693e-03  {231.065 Mflops 39360770} (0.170s)
+nthreads : 1
+nthreads : 1
+--> Step=  41,  2.04988e-01, 6.04789e-03  {220.068 Mflops 39361344} (0.179s)
+nthreads : 1
+nthreads : 1
+--> Step=  42,  2.11036e-01, 6.04789e-03  {229.043 Mflops 39360524} (0.172s)
+nthreads : 1
+nthreads : 1
+--> Step=  43,  2.17133e-01, 6.09680e-03  {219.999 Mflops 39362000} (0.179s)
+nthreads : 1
+nthreads : 1
+--> Step=  44,  2.23229e-01, 6.09680e-03  {221.462 Mflops 39363394} (0.178s)
+nthreads : 1
+nthreads : 1
+--> Step=  45,  2.29373e-01, 6.14368e-03  {195.166 Mflops 39365690} (0.202s)
+nthreads : 1
+nthreads : 1
+--> Step=  46,  2.35517e-01, 6.14368e-03  {206.405 Mflops 39365690} (0.191s)
+nthreads : 1
+nthreads : 1
+--> Step=  47,  2.41705e-01, 6.18864e-03  {194.289 Mflops 39365444} (0.203s)
+nthreads : 1
+nthreads : 1
+--> Step=  48,  2.47894e-01, 6.18864e-03  {207.432 Mflops 39366510} (0.190s)
+nthreads : 1
+nthreads : 1
+--> Step=  49,  2.54126e-01, 6.23192e-03  {196.488 Mflops 39368642} (0.200s)
+nthreads : 1
+nthreads : 1
+--> Step=  50,  2.60358e-01, 6.23192e-03  {202.211 Mflops 39369954} (0.195s)
+nthreads : 1
+nthreads : 1
+--> Step=  51,  2.66632e-01, 6.27371e-03  {189.041 Mflops 39370528} (0.208s)
+nthreads : 1
+nthreads : 1
+--> Step=  52,  2.72905e-01, 6.27371e-03  {201.003 Mflops 39372004} (0.196s)
+nthreads : 1
+nthreads : 1
+--> Step=  53,  2.79219e-01, 6.31414e-03  {189.201 Mflops 39370774} (0.208s)
+nthreads : 1
+nthreads : 1
+--> Step=  54,  2.85534e-01, 6.31414e-03  {192.175 Mflops 39373234} (0.205s)
+nthreads : 1
+nthreads : 1
+--> Step=  55,  2.91887e-01, 6.35325e-03  {185.988 Mflops 39374218} (0.212s)
+nthreads : 1
+nthreads : 1
+--> Step=  56,  2.98240e-01, 6.35325e-03  {203.059 Mflops 39375694} (0.194s)
+nthreads : 1
+nthreads : 1
+--> Step=  57,  3.04631e-01, 6.39113e-03  {192.327 Mflops 39375940} (0.205s)
+nthreads : 1
+nthreads : 1
+--> Step=  58,  3.11022e-01, 6.39113e-03  {199.059 Mflops 39377334} (0.198s)
+nthreads : 1
+nthreads : 1
+--> Step=  59,  3.17450e-01, 6.42785e-03  {188.672 Mflops 39377826} (0.209s)
+nthreads : 1
+nthreads : 1
+--> Step=  60,  3.23878e-01, 6.42785e-03  {202.226 Mflops 39378072} (0.195s)
+nthreads : 1
+nthreads : 1
+--> Step=  61,  3.30342e-01, 6.46353e-03  {200.254 Mflops 39380204} (0.197s)
+nthreads : 1
+nthreads : 1
+--> Step=  62,  3.36805e-01, 6.46353e-03  {206.958 Mflops 39381270} (0.190s)
+nthreads : 1
+nthreads : 1
+--> Step=  63,  3.43303e-01, 6.49823e-03  {197.839 Mflops 39383238} (0.199s)
+nthreads : 1
+nthreads : 1
+--> Step=  64,  3.49802e-01, 6.49823e-03  {201.166 Mflops 39382828} (0.196s)
+nthreads : 1
+nthreads : 1
+--> Step=  65,  3.56334e-01, 6.53203e-03  {196.470 Mflops 39381926} (0.200s)
+nthreads : 1
+nthreads : 1
+--> Step=  66,  3.62866e-01, 6.53203e-03  {194.183 Mflops 39385616} (0.203s)
+nthreads : 1
+nthreads : 1
+--> Step=  67,  3.69431e-01, 6.56497e-03  {179.053 Mflops 39385370} (0.220s)
+nthreads : 1
+nthreads : 1
+--> Step=  68,  3.75996e-01, 6.56497e-03  {181.796 Mflops 39386026} (0.217s)
+nthreads : 1
+nthreads : 1
+--> Step=  69,  3.82593e-01, 6.59713e-03  {178.968 Mflops 39387420} (0.220s)
+nthreads : 1
+nthreads : 1
+--> Step=  70,  3.89190e-01, 6.59713e-03  {183.058 Mflops 39388486} (0.215s)
+nthreads : 1
+nthreads : 1
+--> Step=  71,  3.95818e-01, 6.62852e-03  {193.495 Mflops 39389060} (0.204s)
+nthreads : 1
+nthreads : 1
+--> Step=  72,  4.02447e-01, 6.62852e-03  {203.203 Mflops 39388978} (0.194s)
+nthreads : 1
+nthreads : 1
+--> Step=  73,  4.09106e-01, 6.65915e-03  {183.555 Mflops 39391110} (0.215s)
+nthreads : 1
+nthreads : 1
+--> Step=  74,  4.15765e-01, 6.65915e-03  {184.928 Mflops 39393652} (0.213s)
+nthreads : 1
+nthreads : 1
+--> Step=  75,  4.22454e-01, 6.68906e-03  {180.765 Mflops 39394390} (0.218s)
+nthreads : 1
+nthreads : 1
+--> Step=  76,  4.29143e-01, 6.68906e-03  {179.209 Mflops 39394226} (0.220s)
+nthreads : 1
+nthreads : 1
+--> Step=  77,  4.35862e-01, 6.71827e-03  {194.155 Mflops 39394144} (0.203s)
+nthreads : 1
+nthreads : 1
+--> Step=  78,  4.42580e-01, 6.71827e-03  {199.518 Mflops 39395046} (0.197s)
+nthreads : 1
+nthreads : 1
+--> Step=  79,  4.49327e-01, 6.74684e-03  {195.170 Mflops 39397342} (0.202s)
+nthreads : 1
+nthreads : 1
+--> Step=  80,  4.56073e-01, 6.74684e-03  {198.104 Mflops 39398490} (0.199s)
+nthreads : 1
+nthreads : 1
+--> Step=  81,  4.62848e-01, 6.77480e-03  {193.133 Mflops 39399392} (0.204s)
+Hydro ends in 00:00:16.207s (16.207).
