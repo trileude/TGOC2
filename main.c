@@ -35,7 +35,7 @@ main (int argc, char **argv)
   double start_iter = 0, end_iter = 0;
   double elaps = 0;
 
-  omp_set_num_threads(4);
+  omp_set_num_threads(12);
   #pragma omp parallel
   {
     #pragma omp master

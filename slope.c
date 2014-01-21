@@ -36,14 +36,15 @@ slope (const int n,
   //ijmax = n;
 
 
-    double dlft, drgt, dcen, dsgn, slop, dlim;
     int  ijmin, ijmax;
     ijmin = 0;
     ijmax = n;
+    #pragma omp parallel for
     for (int nbv = 0; nbv < Hnvar; nbv++)
     {
       for (int s = 0; s < slices; s++)
       {
+	double dlft, drgt, dcen, dsgn, slop, dlim;
         for (int i = ijmin + 1; i < ijmax - 1; i++)
         {
             dlft = Hslope_type * (q[IDX (nbv, s, i)]      - q[IDX (nbv, s, i - 1)]);
@@ -58,9 +59,9 @@ slope (const int n,
           
             dq[IDX(nbv, s, i)] = dsgn * fmin (dlim, fabs (dcen));
 
-           #ifdef FLOPS
-            flops += 8;
-           #endif
+           //EB : #ifdef FLOPS
+           //EB :  flops += 8;
+           //EB : #endif
         }
       }
     }

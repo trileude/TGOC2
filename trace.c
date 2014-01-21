@@ -154,11 +154,11 @@ trace (const double dtdx,
 
   if (Hnvar > IP)
   {
-      double  u, a, acmpleft;
-      double  da, acmpright, spzero;
-      int ijmin=0, ijmax=n;
       for (int IN = IP + 1; IN < Hnvar; IN++)
 	    {
+	      double  u, a, acmpleft;
+     	      double  da, acmpright, spzero;
+	      int ijmin=0, ijmax=n;
 	      for (int s = 0; s < slices; s++)
 	      {
 	        for (int i = ijmin + 1; i < ijmax - 1; i++)
@@ -185,7 +185,7 @@ trace (const double dtdx,
 		        acmpleft = -half * spzero * da;
 		        qxm[IDX (IN, s, i)] = a + acmpleft;
 
-		        CFLOPS (10);
+		        //EB : CFLOPS (10);
 		      }
 	      }
 	    }
